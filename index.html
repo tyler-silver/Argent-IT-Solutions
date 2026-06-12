@@ -13,7 +13,42 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#home" aria-label="Argent IT Solutions home">
-        <span class="brand-mark">A</span>
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 72 72" role="img" focusable="false">
+            <defs>
+              <linearGradient id="argent-silver" x1="18" y1="8" x2="48" y2="66" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#dfe4e4" />
+                <stop offset="1" stop-color="#8f979b" />
+              </linearGradient>
+              <linearGradient id="argent-teal" x1="34" y1="22" x2="58" y2="66" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#1ea59b" />
+                <stop offset="1" stop-color="#08736f" />
+              </linearGradient>
+            </defs>
+            <path d="M15 61 33 11h15l9 25H45l-5-15-14 40Z" fill="url(#argent-silver)" />
+            <path d="M30 61 47 23l18 38H51l-6-15-7 15Z" fill="url(#argent-teal)" />
+            <path
+              d="M26 55h13l13-25"
+              fill="none"
+              stroke="#f7f8f7"
+              stroke-width="11"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M26 55h13l13-25"
+              fill="none"
+              stroke="#08736f"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <circle cx="26" cy="55" r="9" fill="#f7f8f7" />
+            <circle cx="26" cy="55" r="4" fill="#08736f" />
+            <circle cx="52" cy="30" r="9" fill="#f7f8f7" />
+            <circle cx="52" cy="30" r="4" fill="#08736f" />
+          </svg>
+        </span>
         <span>Argent IT Solutions</span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
